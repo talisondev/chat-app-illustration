@@ -1,0 +1,154 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+    /* text */
+    --pale-violet: hsl(276, 100%, 81%);
+    --moderate-violet: hsl(276, 55%, 52%);
+    --dark-violet: hsl(271, 15%, 43%);
+    --desaturated-violet: hsl(271, 36%, 24%);
+    /* button submit bg*/
+    --grayish-blue: hsl(206, 6%, 79%);
+    --dark-grayish-violet: hsl(270, 7%, 64%);
+    /* gradient */
+    --light-magenta: hsl(293, 100%, 63%);
+    --light-violet: hsl(264, 100%, 61%);
+    /* secondary */
+    --light-grayish-violet: hsl(270, 20%, 96%);
+    /* bg app*/
+    
+}
+
+body {
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.icon {
+    background: linear-gradient(200deg, var(--light-magenta), var(--light-violet));
+    width: 450px;
+    height: 600px;
+    position: absolute;
+    left: -100px;
+    border-radius: 0 0 50% 50%;
+    z-index: -1;
+}
+
+.content {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+
+
+}
+
+.app {
+
+    background: var(--light-grayish-violet);
+    max-width: 300px;
+    width: 100%;
+    /* height: 550px; */
+
+    /* border: 5px solid #FFF; */
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px;
+    padding: 10px;
+    margin-right: 6em;
+
+}
+
+.contact {
+    background: linear-gradient(270deg, var(--light-magenta), var(--light-violet));
+    border-radius: 20px 20px 5px 5px;
+    padding: 30px 0 15px 0;
+
+}
+
+.profile {
+    display: flex;
+    align-items: center;
+    color: white;
+    margin-left: 15px;
+
+}
+
+.profile img {
+    border: 1px solid #fff;
+    border-radius: 50%;
+    width: 35px;
+    margin: 0 10px;
+}
+
+.profile .status {
+    font-size: 11px;
+    color: var(--light-grayish-violet);
+    margin-top: 2px;
+}
+
+.profile .menu {
+    /* justify-self: flex-end; */
+    position: relative;
+    left: 75px;
+
+}
+
+.msg-left p {
+    width: 180px;
+    margin-top: 10px;
+    border-radius: 5px;
+    background: var(--grayish-blue);
+    padding: 5px;
+    color: var(--moderate-violet);
+    font-size: 12px;
+}
+.msg-right {
+    display: flex;
+    justify-content: flex-end;
+}
+.msg-right p {
+    
+    border-radius: 5px;
+    width: 180px;
+    padding: 5px;
+    font-size: 12px;
+    box-shadow: 1px 1px 10px ;
+    color: var(--desaturated-violet);
+    margin-top: 5px;
+}
+
+.images {
+    display: flex;
+    justify-content: flex-end;
+    margin-top: 5px;
+}
+
+.images img {
+    width: 40px;
+    border-radius: 10px;
+    margin: 5px;
+}
+
+.price {
+    background: linear-gradient(60deg, var(--light-magenta), var(--light-violet));
+    margin-top: 5px;
+    width: 200px;
+    padding: 10px;
+    border-radius: 15px 15px 15px 5px;
+}
+
+.booking {
+    max-width: 450px;
+}
+
+.booking h1 {
+    color: var(--desaturated-violet);
+}
+
+.booking p {
+    margin-top: 15px;
+    color: var(--dark-grayish-violet);
+}
